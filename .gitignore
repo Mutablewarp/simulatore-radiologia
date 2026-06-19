@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Backup JSON dei progressi (contengono dati personali di studio)
+radiologia-progressi-*.json
+radiologia-report-*.md
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude Code: config/log/audit di sessione (non versionare)
+.claude/
+
+# Log
+*.log
+nohup.out
+
+# Server temp
+__pycache__/
+*.pyc
+
+# Cloudflare Pages
+.wrangler/
+
+# dist non escluso: contiene la build statica per deploy
+
+# File di lavoro interni (planning/log) — non versionare
+task_plan*.md
+RESOCONTO_LAVORO.md
+PRODUCT.md
+notes.md
