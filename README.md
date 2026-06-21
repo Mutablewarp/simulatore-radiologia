@@ -51,7 +51,7 @@ open http://127.0.0.1:8765/index.html
 ## Caratteristiche
 
 ### Contenuto
-- **823 domande** italiane su 21 topic del programma (Radiobiologia, Raggi X, TC, RM, Ecografia, Mdc, RX Torace, Toracico, Addome, Neuro, Muscoloscheletrico, Mammella, Urologico, Endocrino, Ginecologia, Emergenze, Pediatrica, Interventistica, Vascolare, Nucleare, trasversali…)
+- **1000 domande** italiane su 21 topic del programma (Radiobiologia, Raggi X, TC, RM, Ecografia, Mdc, RX Torace, Toracico, Addome, Neuro, Muscoloscheletrico, Mammella, Urologico, Endocrino, Ginecologia, Emergenze, Pediatrica, Interventistica, Vascolare, Nucleare, trasversali…)
 - **Spiegazione esaustiva + deep dive** clinico-fisiopatologico per **ogni** domanda (media ~760 + ~1080 caratteri), fondate sul materiale reale del corso e verificate
 - **120 quesiti livello-esame** (hard/medium) generati dal materiale d'esame e revisionati in modo avversariale per accuratezza medica
 - **Anti-ripetizione**: ricorda le ultime ~140 domande proposte e ruota su tutto il pool (niente più "sempre le stesse")

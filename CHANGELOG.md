@@ -6,6 +6,19 @@ Il formato segue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) e il v
 
 ## [Unreleased]
 
+## [5.3.0] — 2026-06-21
+
+### Aggiunto — pool a 1000 domande
+- **+177 nuove domande** (q824–q1000) generate per topic e verificate in modo avversariale. Pool da 823 a **1000 domande** (q001–q1000), distribuite su tutti i 21 topic (41–66 ciascuno).
+- Difficoltà: 57 facili, 350 medie, 593 difficili.
+
+### Migliorato — anti-indovinello sul nuovo materiale
+- **Ribilanciate 83 domande** del lotto precedente in cui la risposta corretta era l'opzione più lunga, e generazione del nuovo lotto con vincolo di lunghezza rigoroso (opzioni entro ±15%, corretta mai la più lunga).
+- "Tell" della lunghezza sul blocco generato (q621–q1000) sceso dal **40,9% al 8,2%**; sull'intero pool da 29,4% al **19,0%** (≈ livello del caso). Risultato: per indovinare servono ragionamento e conoscenza, non la lunghezza dell'opzione.
+
+### Tecnico
+- Generazione orchestrata con workflow multi-agente (49 agenti per il completamento); integrazione deterministica con ricostruzione del blocco generato e validazione del pool. Screenshot e `dist/` aggiornati. APP_VERSION 5.3.0.
+
 ## [5.2.0] — 2026-06-19
 
 ### Aggiunto — espansione del pool
