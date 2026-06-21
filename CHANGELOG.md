@@ -6,6 +6,17 @@ Il formato segue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) e il v
 
 ## [Unreleased]
 
+## [5.4.0] — 2026-06-21
+
+### Aggiunto — supporto inglese (IT/EN)
+- **Selettore lingua IT/EN** nell'header (pulsante `IT`/`EN`), scelta salvata nel browser.
+- **Interfaccia tradotta in inglese**: navigazione, home, costruttore sessione, esame, statistiche, impostazioni, traguardi, medaglie, livelli, messaggi e conferme. Topic e difficoltà mostrati in inglese; l'indice della risposta corretta resta invariato.
+- **Domande in inglese**: testo, opzioni, spiegazione e approfondimento mostrati in inglese quando disponibili, con **fallback all'italiano** per le domande non ancora tradotte (nessun testo corrotto: le frasi generiche si attivano solo quando l'intero pool è tradotto).
+- Traduzione tramite workflow multi-agente con vincolo di preservazione dell'ordine delle opzioni.
+
+### Nota
+- Copertura traduzione domande: **260/1000** in questa release (limite tecnico di generazione raggiunto a metà run). Le restanti sono in lavorazione; appena complete, la lingua inglese diventa totale in automatico. APP_VERSION 5.4.0.
+
 ## [5.3.0] — 2026-06-21
 
 ### Aggiunto — pool a 1000 domande

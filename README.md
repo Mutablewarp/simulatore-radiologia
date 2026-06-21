@@ -4,6 +4,8 @@ Mille domande a risposta multipla per preparare l'esame universitario di Diagnos
 
 **▶ Provalo ora: [simulatore-radiologia](https://mutablewarp.github.io/simulatore-radiologia/)**
 
+> 🇬🇧 **English:** click the `IT`/`EN` button in the header to switch the app to English (interface and questions).
+
 ![Home](docs/screenshots/home.png)
 
 ## Cosa fa
