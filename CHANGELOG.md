@@ -6,6 +6,14 @@ Il formato segue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) e il v
 
 ## [Unreleased]
 
+## [5.5.0] — 2026-06-21
+
+### Completato — inglese totale
+- **Tutte le 1000 domande tradotte in inglese** (testo, opzioni, spiegazione, approfondimento, sottotema): copertura 1000/1000. In modalità EN l'app è ora interamente in inglese.
+- Attivato il layer di traduzione completo dell'interfaccia interpolata (numeri + parole, es. "Pool of 1000 questions", "Review 80 now", "Record: 7 days", "✓ 19s ago"): scatta automaticamente ora che l'intero pool è tradotto, senza rischio di corrompere testo.
+- Save-status e contatori localizzati; il toggle IT/EN aggiorna tutto all'istante.
+- Verifica: ordine opzioni preservato su tutte le 1000 (risposta corretta invariata), 8 blocchi JS validi, 0 errori. APP_VERSION 5.5.0.
+
 ## [5.4.0] — 2026-06-21
 
 ### Aggiunto — supporto inglese (IT/EN)
